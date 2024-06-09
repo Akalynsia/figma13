@@ -2,9 +2,9 @@ import React from "react";
 
 const App = () => {
   return (
-    <div className="relative w-screen sm:h-screen flex flex-col justify-center items-center bg-white gap-10">
+    <div className="relative w-screen sm:h-screen lg:h-full flex flex-col justify-center items-center bg-white gap-10">
       <header
-        className="sm:-mt-16 w-[550px] h-[70px] md:w-[790px] md:h-[140px] lg:w-[1200px] lg:h-[140px] flex items-center"
+        className="sm:-mt-16 w-[550px] h-[70px] md:w-[790px] md:h-[140px] lg:w-[1200px] lg:mt-0 lg:h-[140px] flex items-center"
         style={{ boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)" }}
       >
         <img src="/logo.png" alt="logo" className="ml-12" />
